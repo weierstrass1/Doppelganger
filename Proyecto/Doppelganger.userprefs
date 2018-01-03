@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="Doppelganger.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Mobile Objects\Enemies\Normal\Metball\metballController.cs">
+    <Files>
+      <File FileName="Assets\Escene\Scripts\layer.cs" Line="1" Column="1" />
+      <File FileName="Assets\Mobile Objects\Scripts\animation.cs" Line="1" Column="1" />
+      <File FileName="Assets\Mobile Objects\Scripts\frame.cs" Line="1" Column="1" />
+      <File FileName="Assets\Mobile Objects\Scripts\customAnimation.cs" Line="1" Column="1" />
+      <File FileName="Assets\Global\Scripts\globalVars.cs" Line="1" Column="1" />
+      <File FileName="Assets\Stages\Vozros lab\windowParallax.cs" Line="1" Column="1" />
+      <File FileName="Assets\Mobile Objects\Enemies\Normal\Metball\metballController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Mobile Objects\Scripts\BaseCharacter.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
