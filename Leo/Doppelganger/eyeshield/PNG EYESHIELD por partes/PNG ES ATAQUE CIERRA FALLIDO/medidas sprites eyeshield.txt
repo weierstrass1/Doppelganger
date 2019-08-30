@@ -1,0 +1,9 @@
+EYEshield (z order)
+
+ES ataque cierra fallido
+
+Brazo hombro derecho
+Brazo hombre izquierdo
+cabeza
+torax
+pierna

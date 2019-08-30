@@ -1,0 +1,102 @@
+58x80
+EYEshield (z order)
+
+ES ataque cierra fallido (0,1seg, fr4 y fr6 0,2seg)
+
+Brazo hombro derecho
+Brazo hombre izquierdo
+cabeza
+torax
+pierna
+
+ES Idle (0,2seg)
+
+Hombro brazo izquierdo
+cabeza
+torax
+hombro brazo derecho
+piernas
+
+ES ataque cierra (fr1 al fr3 0,1seg fr4 0,2 fr5 al fr8 0,1seg fr9 0,5seg fr10 y fr11)
+
+brazo hombro derecho
+hombro brazo izquierdo
+cabeza 
+torax
+piernas
+
+ES comienzo a correr ( fr1 al fr5 0,1seg)
+
+Hombro brazo izquierdp
+cabeza
+torax
+hombro brazo derecho
+piernas
+
+ES corriendo (Fr1 al fr9 0 seg)
+
+HOmbro brazo izquierdo
+cabeza
+torax
+hombro brazo derecho
+piernas
+
+ES corriendo disparando (fr1 al fr9 0 seg)
+
+Hombro brazo izquierdo
+cabeza 
+torax
+hombro brazo derecho
+piernas
+
+ES corriendo disparando 2 (fr1 al fr9 0 seg)
+
+Lo mismo que "ES corriendo", pero cambia:
+
+Cabeza
+hombro brazo derecho
+
+ES corriendo disparando 3 (fr1 al fr9 0 seg)
+
+Lo mismo que "ES corriendo", pero cambia:
+
+Cabeza
+torax
+hombro brazo derecho
+piernas
+
+ES corriendo disparando 4 (fr1 al fr9 0 seg)
+
+Hombro brazo izquierdo
+Cabeza
+torax
+hombro brazo derecho
+piernas
+
+ES corriendo disparando 5 (fr1 al fr9 0 seg)
+
+Hombro brazo izquierdo
+Cabeza
+torax
+hombro brazo derecho
+piernas
+
+ES tacle corriendo (fr1 al fr9 seg 0)
+
+Hombro brazo izquierdo
+cabeza
+torax
+hombro brazo izquierdo
+piernas
+
+ES volteo simple (fr1 al fr6 0 seg)
+
+Hombro brazo derecho
+hombro brazo izquierdo
+cabeza
+torax
+piernas
+
+
+
+
