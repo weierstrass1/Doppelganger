@@ -1,9 +1,5 @@
-Blax arma formación 
+Blax salto
 tamaño frames 62px (ancho)x80px (alto)
-
-Frames
-torzo, piernas y brazo derecho son el mismo
-desde el frame 1 al 9
 
 Organización
 
