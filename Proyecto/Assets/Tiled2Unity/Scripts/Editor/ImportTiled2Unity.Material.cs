@@ -126,6 +126,7 @@ namespace Tiled2Unity
                 if (!String.IsNullOrEmpty(uniqueMaterialName))
                 {
                     materialPath = String.Format("{0}/{1}{2}", Path.GetDirectoryName(materialPath), uniqueMaterialName, Path.GetExtension(materialPath));
+                    materialPath = materialPath.Replace(System.IO.Path.DirectorySeparatorChar, '/');
                 }
 
                 string materialFile = System.IO.Path.GetFileName(materialPath);
