@@ -70,6 +70,7 @@
     <Compile Include="Assets\Escene\Scripts\Blocks\left1404SlopeSolidBlockP4.cs" />
     <Compile Include="Assets\Escene\Scripts\Blocks\left2657SlopeSolidBlockP1.cs" />
     <Compile Include="Assets\Escene\Scripts\Blocks\left2657SlopeSolidBlockP2.cs" />
+    <Compile Include="Assets\Escene\Scripts\Blocks\left45SlopeSolidBlock.cs" />
     <Compile Include="Assets\Escene\Scripts\Blocks\left45SlopeSolidBlockP1.cs" />
     <Compile Include="Assets\Escene\Scripts\Blocks\left45SlopeSolidBlockP2.cs" />
     <Compile Include="Assets\Escene\Scripts\Blocks\left6343SlopeSolidBlockP1.cs" />
@@ -86,6 +87,7 @@
     <Compile Include="Assets\Escene\Scripts\Blocks\right1404SlopeSolidBlockP4.cs" />
     <Compile Include="Assets\Escene\Scripts\Blocks\right2657SlopeSolidBlockP1.cs" />
     <Compile Include="Assets\Escene\Scripts\Blocks\right2657SlopeSolidBlockP2.cs" />
+    <Compile Include="Assets\Escene\Scripts\Blocks\right45SlopeSolidBlock.cs" />
     <Compile Include="Assets\Escene\Scripts\Blocks\right45SlopeSolidBlockP1.cs" />
     <Compile Include="Assets\Escene\Scripts\Blocks\right45SlopeSolidBlockP2.cs" />
     <Compile Include="Assets\Escene\Scripts\Blocks\right6343SlopeSolidBlockP1.cs" />
@@ -98,6 +100,7 @@
     <Compile Include="Assets\Escene\Scripts\Blocks\right7596SlopeSolidBlockP5.cs" />
     <Compile Include="Assets\Escene\Scripts\Blocks\solidBlock.cs" />
     <Compile Include="Assets\Escene\Scripts\Blocks\solidBlockMidDown.cs" />
+    <Compile Include="Assets\Escene\Scripts\Blocks\solidBlockMidLeft.cs" />
     <Compile Include="Assets\Escene\Scripts\Blocks\solidSlopeBlock.cs" />
     <Compile Include="Assets\Escene\Scripts\layer.cs" />
     <Compile Include="Assets\Escene\Scripts\level.cs" />
@@ -108,6 +111,7 @@
     <Compile Include="Assets\Global\Scripts\textTranslate.cs" />
     <Compile Include="Assets\Mobile Objects\Enemies\Normal\Metball\metballController.cs" />
     <Compile Include="Assets\Mobile Objects\Player\Scripts\Blax.cs" />
+    <Compile Include="Assets\Mobile Objects\Player\Scripts\BlaxController.cs" />
     <Compile Include="Assets\Mobile Objects\Scripts\animation.cs" />
     <Compile Include="Assets\Mobile Objects\Scripts\animationComponent.cs" />
     <Compile Include="Assets\Mobile Objects\Scripts\BaseCharacter.cs" />
@@ -164,6 +168,7 @@
     <None Include="Assets\Tiled2Unity\Shaders\shaDefault-Instanced.shader" />
     <None Include="Assets\Tiled2Unity\Shaders\shaColorKey-Instanced.shader" />
     <None Include="Assets\Tiled2Unity\Shaders\shaColorKey.shader" />
+    <None Include="Assets\Tiled2Unity\Imported\Vozroz Lab 1 - Factory Zone.tiled2unity.xml" />
     <None Include="Assets\Tiled2Unity\Shaders\shaDepthColorKey.shader" />
     <None Include="Assets\Tiled2Unity\Shaders\shaDepthColorKey-Instanced.shader" />
     <None Include="Assets\Tiled2Unity\License.txt" />
