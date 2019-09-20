@@ -11,10 +11,13 @@ public class layer : MobileObject
     public int height;
     public static block[] AllBlocks = { new solidBlock(),
         new solidBlockMidDown(),
+        new solidBlockMidLeft(),
         new right45SlopeSolidBlockP1(),
         new right45SlopeSolidBlockP2(),
         new left45SlopeSolidBlockP1(),
         new left45SlopeSolidBlockP2(),
+        new right45SlopeSolidBlock(),
+        new left45SlopeSolidBlock(),
         new right2657SlopeSolidBlockP1(),
         new right2657SlopeSolidBlockP2(),
         new DelegateToUpBlock(),
