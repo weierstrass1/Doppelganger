@@ -1,0 +1,31 @@
+El fondo animado debe ensamblarse como sigue.  Como una capa inferior
+debe ir "Base.png", alternativamente puse ser sólo un color de fondo,
+ya que o lleva textura alguna. Arriba deben ir las capas animadas
+"Lineas1", "Lineas2", y "Lineas3", cada una con un efecto de
+transparencia distinto. Finalmente encima de todas va la capa
+"Grid.png" que consiste en una capa semitransparente con líneas en un
+patrón de cuadros. Todas las capas son de 456 x 256, y cada frame
+está separado por una línea de pixeles vacíos.
+
+En la siguiente tabla se enlistan las capas con su efecto
+correspondiente, la capa inferior quedaría más al fondo.
+
++-----+------------+----------------------+
+|Capa |Nombre      |Efectos               |
++-----+------------+----------------------+
+|     |            |                      |
+|  5  |Menus       |Recomiendo un alpha de|
+|     |            |70%                   |
++-----+------------+----------------------+
+|     |Grid.png    |Alpha opcional,       |
+|  4  |            |preferentemente entre |
+|     |            |80% y 100%            |
++-----+------------+----------------------+
+|  3  |Lineas3.png |Alpha a 50%           |
++-----+------------+----------------------+
+|  2  |Lineas2.png |Alpha a 8%            |
++-----+------------+----------------------+
+|  1  |Lineas1.png |Alpha de 25%          |
++-----+------------+----------------------+
+|  0  |Base.png    | ---                  |
++-----+------------+----------------------+
