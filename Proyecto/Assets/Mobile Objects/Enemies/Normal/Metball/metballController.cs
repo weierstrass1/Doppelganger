@@ -338,6 +338,7 @@ public class metballController : CharacterController
 
         saux.recipient = skillRecipient.currentTransformation;
 
+        saux.getEnergy = new int[] { 1, 1, 1, 1, 1 };
         saux.getBaseDamage = new int[] { 20, 40, 60, 100, 150 };
         saux.getExperience = new int[] { 10, 10, 20, 20, 30 };
 
@@ -447,6 +448,7 @@ public class metballController : CharacterController
 
         saux.recipient = skillRecipient.currentTransformation;
 
+        saux.getEnergy = new int[] { 2, 2, 2, 2, 2 };
         saux.getBaseDamage = new int[] { 5, 15, 25, 35, 50 };
         saux.getExperience = new int[] { 4, 5, 6, 7, 8 };
 
@@ -499,7 +501,7 @@ public class metballController : CharacterController
         saux.recipient = skillRecipient.currentTransformation;
 
         saux.addGetOthers(new int[] { 10, 20, 30, 40, 50, 60, 70, 80, 120, 160 });
-        saux.getExperience = new int[] { 3, 3, 4, 4, 5, 5, 6, 6, 10, 10 };
+        saux.getExperience = new int[] { 3, 3, 8, 8, 10, 10, 15, 15, 30, 30 };
 
         skills[6].addChild(saux, 5);
 

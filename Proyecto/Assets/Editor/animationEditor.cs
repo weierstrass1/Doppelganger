@@ -7,7 +7,7 @@ public class animationEditor : Editor
     bool foldAnimations;
     public graphicComponent selectedGC;
     public int selectedFrame;
-
+    int startNum, endNum, startingIndex;
 
     public override void OnInspectorGUI()
     {
@@ -58,6 +58,7 @@ public class animationEditor : Editor
             for (int i = 0; i < ac.animations.Length; i++)
             {
                 ac.animations[i].fold = EditorGUILayout.Foldout(ac.animations[i].fold, ac.animations[i].name);
+
                 if (ac.animations[i].fold)
                 {
                     EditorGUI.indentLevel++;
@@ -112,6 +113,24 @@ public class animationEditor : Editor
                     if (ac.animations[i].frames != null)
                     {
                         selectedGC = (graphicComponent)EditorGUILayout.ObjectField(selectedGC, typeof(graphicComponent), true);
+
+                        startNum = EditorGUILayout.IntField("Start Index", startNum);
+                        endNum = EditorGUILayout.IntField("End Index", endNum);
+                        startingIndex = EditorGUILayout.IntField("Starting Index", startingIndex);
+
+                        if (GUILayout.Button("Add Graphics to Frames") && selectedGC != null)
+                        {
+                            if (selectedGC.allFrames != null
+                                && ac.animations[i].frames.Length > startingIndex
+                                && selectedGC.allFrames.Length > endNum
+                                && selectedGC.allFrames.Length > startNum) 
+                            {
+                                for (int j = startingIndex, k = startNum; j < ac.animations[i].frames.Length && k <= endNum; j++, k++)
+                                {
+                                    ac.animations[i].frames[j].frames.Add(selectedGC.allFrames[k]);
+                                }
+                            }
+                        }
 
                         if (selectedGC != null && selectedGC.allFrames != null && selectedGC.allFrames.Length > 0)
                         {
