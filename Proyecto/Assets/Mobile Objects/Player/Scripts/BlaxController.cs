@@ -7,17 +7,19 @@ using System.Threading.Tasks;
 public class BlaxAnimations
 {
     public const int Idle = 0;
+    public const int Walking = 1;
 }
 public class BlaxController : CharacterController
 {
     #region Starts
     public override void characterStart()
     {
+        character = GetComponent<BaseCharacter>();
     }
 
     public override void componentStart()
     {
-        animations[BlaxAnimations.Idle].startAnimation(0);
+        animations[BlaxAnimations.Walking].startAnimation(0);
     }
     #endregion
 
@@ -28,7 +30,9 @@ public class BlaxController : CharacterController
 
     public override void componentUpdate()
     {
-        animations[BlaxAnimations.Idle].excecuteAnimation();
+        animations[BlaxAnimations.Walking].excecuteAnimation();
+        character.checkContactPoints(character.components);
+        character.applySpeed(true, false, true, true, true);
     }
 
     public override void StartState(int state)
