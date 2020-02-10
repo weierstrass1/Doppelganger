@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html><head>
+	<meta charset="UTF-8">
+	<title>Pixel Line Animation</title>
+	<link href="Image/favicon.ico" rel="SHORTCUT ICON">
+	<!-- Website Tour -->
+	<script type="text/javascript" src="JS/jquery.min.js"></script>
+	<script type="text/javascript" src="JS/intro.js"></script>
+	<link rel="stylesheet" type="text/css" href="CSS/introjs.css">
+	<link rel="stylesheet" type="text/css" href="CSS/themes/introjs-flattener.css">
+	<!-- Animation -->
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="CSS/view.css" media="all">
+	<link rel="stylesheet" type="text/css" href="CSS/TopNavigation.css" media="all">
+	<link rel="stylesheet" type="text/css" href="CSS/SideNavigation.css" media="all">
+	<script type="text/javascript" src="JS/view.js"></script>
+	<script type="text/javascript" src="JS/AnimationTable.js"></script>
+	<script type="text/javascript" src="JS/Anim.js"></script>
+</head>
+<body class="no_guidelines firefox" id="main_body">
+	
+	<img id="top" src="Image/top.png" alt="">
+	<div id="anim_container">
+		<ul class="topnav">
+			<li><a id="pixelartpage" href="">Pixel Art</a></li>
+			<li><a id="comparisonpage" href="">Comparison</a></li>
+			<li><a id="optimizationpage" href="">Optimization</a></li>
+			<li style="float:right"><a onclick="introguide.start()">Guidance</a></li>
+		</ul>
+		
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		</div>
+		
+		<span id="menu" onclick="openNav()">☰ Animations</span>
+		
+		<div id="loading">
+			<div class="loading"></div>
+			<div class="loading-word">Loading...</div>
+		</div>
+		<h2 style="text-align:left;" id="anim_name"></h2>
+		
+		<div style="position: fixed; width:100%; bottom: 0; left:0; background-color: #111; opacity: 0.9;">
+			<div id="show-frame" style="position: fixed; left:15px;">
+				<span style="font-size:16px; color : white;">Frame : <span id="current_frame">0</span></span>
+			</div>
+			<div id="media-button" style="text-align: center; display: inline-block; ">
+				<i class="fa fa-step-backward fa-2x fa-pull-left fa-border fa-fw anim-button" id="lastbtn" onclick="LastStep()"></i>
+				<i class="fa fa-play fa-2x fa-pull-left fa-border fa-fw anim-button" id="playbtn" onclick="Play()"></i>
+				<i class="fa fa-pause fa-2x fa-pull-left fa-border fa-fw anim-button" id="pausebtn" onclick="Pause()"></i>
+				<i class="fa fa-step-forward fa-2x fa-pull-left fa-border fa-fw anim-button" id="nextbtn" onclick="NextStep()"></i>
+			</div>
+		</div>
+		
+		<div id="window"></div>
+		
+		<script script type="text/javascript">
+			window.onload = InitialContent();
+		</script>
+		
+		<div id="footer">
+			<a>Copyright © 2016. All rights reserved</a><br>
+		</div>
+	</div>
+	<img id="bottom" src="Image/bottom.png" alt="">
+</body></html>
