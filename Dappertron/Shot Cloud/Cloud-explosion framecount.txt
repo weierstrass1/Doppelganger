@@ -1,0 +1,12 @@
+Cloud-burst1-explosion7
+cloud-fireball0-explosion7
+Cloud-shockwave2-explosion7
+
+Frame / time (ms) / framecount
+1 / 50 / 0.85
+2 / 50 / 0.85
+3 / 50 / 0.85
+4 / 50 / 0.85
+5 / 50 / 0.85
+6 / 50 / 0.85
+7 / 50 / 0.85

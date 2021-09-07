@@ -1,0 +1,10 @@
+ZaarSpider-Body0-idle8 & ZaarSpider-Cannon1-idle8
+Frame / time (ms) / framecount
+1 / 80 / 1.36
+2 / 80 / 1.36
+3 / 80 / 1.36
+4 / 80 / 1.36
+5 / 160 / 2.72
+6 / 80 / 1.36
+7 / 80 / 1.36
+8 / 80 / 1.36
