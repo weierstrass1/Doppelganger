@@ -1,0 +1,27 @@
+All animations in the shield flipping contain the following timings:
+
+blax-xyz-shieldflip10
+1 / 50 ms / 3 frames
+2 / 100 ms/ 6 frames
+3 / 67 ms / 4 frames
+4-7 / 50 ms / 3 frames
+8 / 67 ms / 4 frames
+9 / 83 ms / 5 frames
+10 / 50 ms / 3 frames
+______________________________________________________________
+All animations in the light hit contain:
+
+Blax-xyz-ShieldLightHit4
+1-4 / 67 ms / 4 frames
+
+______________________________________________________________
+All animations in the heavy hit contain:
+
+Blax-xyz-ShieldHeavyHit7
+1 / 67 ms / 4 frames
+2 / 50 ms / 3 frames
+3 / 33 ms / 2 frames
+4 / 50 ms / 3 frames
+5 / 50 ms / 3 frames
+6 / 67 ms / 4 frames
+7 / 67 ms / 4 frames
